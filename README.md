@@ -135,6 +135,10 @@ tail -100 /var/log/apache2/error.log
 ```
 If the manual code send isn’t working then check to make sure the transmitter is wired properly.  You can also connect an LED to the data pin of the transmitter to confirm that it is receiving output from the Pi, it should blink when you send a code.
 
+#### To access your Pi from outside your local network / from internet
+[Use Weaved](https://www.weaved.com/installing-weaved-raspberry-pi-raspbian-os/)
+I have used and registered my home light automation system, to weaved and it's recommended source from RaspberryPi.org so I tried that and it worked like a charm. Now I can access my lights and all from anywhere. 
+
 
 **Referred Blog Post:**
 - [TimLeland.com/wireless-power-outlets](http://timleland.com/wireless-power-outlets/)
